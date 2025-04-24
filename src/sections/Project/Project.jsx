@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const Project = ({theme, setTheme}) => {
   return (
-    <div className='max-w-[90%] mx-auto w-full flex flex-col items-center mt-40 p-8 scroll-mt-40 scale-90' id='project'>
+    <div className='max-w-[90%] mx-auto w-full flex flex-col items-center mt-4 p-8 scale-90' id='project'>
       <ScrollAnimation animateIn="fadeInRight">
         <p className={`text-7xl font-bold tracking-wider ${theme === 'dark' ? 'text-green' : 'text-pink' } mb-8`}>PROJECTS</p>
       </ScrollAnimation>
